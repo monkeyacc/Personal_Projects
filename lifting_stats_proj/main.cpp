@@ -37,12 +37,21 @@ class liftingData
 
 void welcomeMessage()
 {
-    
+    cout << "*************************************\n";
+
+    cout << "\nHello Miguel, I hope you had a good workout :)\n"; // add an if state that will display either 'morning', 'evening'? sohuld we print the time and data also?
+    cout << "\nWhat would you like to do today?:\n";
+    cout << "1. \n";
+    cout << "2. \n";
+    cout << "3. \n";
+    cout << "4. Exit Program\n";
+
+    cout << "\n*************************************\n";
 }
 
 int main()
 {
-    
+    welcomeMessage();
     
 
     return 0;
