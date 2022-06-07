@@ -35,7 +35,10 @@ class liftingData
 
 };
 
-
+void welcomeMessage()
+{
+    
+}
 
 int main()
 {
