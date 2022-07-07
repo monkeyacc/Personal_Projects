@@ -47,6 +47,12 @@ void welcomeMessage()
     cout << "4. Exit Program\n";
 
     cout << "\n*************************************\n";
+
+    int userOption;
+
+    cin >> userOption;
+
+    cout << "Great! You've chosen option " << userOption << "!\n";
 }
 
 int main()
